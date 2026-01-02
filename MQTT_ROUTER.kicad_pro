@@ -577,7 +577,8 @@
       "Net-(D5-K)": "HVS",
       "Net-(D6-A)": "HVS",
       "Net-(D6-K)": "HVS",
-      "Net-(J3-Pin_1)": "MVHC",
+      "Net-(J3-Pin_1)": "PSO",
+      "Net-(J3-Pin_2)": "MVHC",
       "Net-(PS1-AC{slash}L)": "HV",
       "Net-(PS1-AC{slash}N)": "HV",
       "Net-(R1-Pad1)": "HV"
