@@ -2636,7 +2636,7 @@
 			(justify left bottom)
 		)
 		(uuid "093d8623-7209-4d7e-9709-106f7b7f078b")
-		(property "Netclass" "PSO"
+		(property "Netclass" "MVHC"
 			(at 75.6285 81.28 0)
 			(effects
 				(font
@@ -2682,7 +2682,7 @@
 			(justify left bottom)
 		)
 		(uuid "acd2f5a6-3eac-4b39-ae84-17dde30d23c5")
-		(property "Netclass" "PSO"
+		(property "Netclass" "MVHC"
 			(at 93.4085 81.28 0)
 			(effects
 				(font

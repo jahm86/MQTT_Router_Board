@@ -495,23 +495,6 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.4,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "HV",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.4,
-        "via_diameter": 1.0,
-        "via_drill": 0.5,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
         "clearance": 1.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -546,6 +529,23 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.6,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "MVHC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.4,
+        "via_diameter": 0.8,
+        "via_drill": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -569,7 +569,7 @@
     "netclass_assignments": {
       "Net-(C1-Pad1)": "HV",
       "Net-(C1-Pad2)": "HV",
-      "Net-(D10-A)": "PSO",
+      "Net-(D10-A)": "MVHC",
       "Net-(D11-K)": "PSO",
       "Net-(D3-A)": "HVS",
       "Net-(D3-K)": "HVS",
@@ -577,55 +577,15 @@
       "Net-(D5-K)": "HVS",
       "Net-(D6-A)": "HVS",
       "Net-(D6-K)": "HVS",
-      "Net-(J3-Pin_1)": "PSO",
+      "Net-(J3-Pin_1)": "MVHC",
       "Net-(PS1-AC{slash}L)": "HV",
       "Net-(PS1-AC{slash}N)": "HV",
       "Net-(R1-Pad1)": "HV"
     },
     "netclass_patterns": [
       {
-        "netclass": "HV",
-        "pattern": "/FUENTE/N"
-      },
-      {
-        "netclass": "PSO",
-        "pattern": "/FUENTE/V+"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "/FUENTE/L"
-      },
-      {
         "netclass": "PSO",
         "pattern": "+5V"
-      },
-      {
-        "netclass": "HV",
-        "pattern": "Earth"
-      },
-      {
-        "netclass": "HVRl",
-        "pattern": "/SALIDA RELÉ/NC2"
-      },
-      {
-        "netclass": "HVRl",
-        "pattern": "/SALIDA RELÉ/NO2"
-      },
-      {
-        "netclass": "HVRl",
-        "pattern": "/SALIDA RELÉ/C2"
-      },
-      {
-        "netclass": "HVRl",
-        "pattern": "/SALIDA RELÉ/NC1"
-      },
-      {
-        "netclass": "HVRl",
-        "pattern": "/SALIDA RELÉ/NO1"
-      },
-      {
-        "netclass": "HVRl",
-        "pattern": "/SALIDA RELÉ/C1"
       },
       {
         "netclass": "HVS",
@@ -670,6 +630,10 @@
       {
         "netclass": "HVRl",
         "pattern": "/SALIDA RELE/NC1"
+      },
+      {
+        "netclass": "MVHC",
+        "pattern": "/FUENTE/LPROT"
       }
     ]
   },
