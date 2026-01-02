@@ -2603,7 +2603,7 @@
 		)
 		(uuid "f9181c90-cd54-415e-a093-efc1462f5c24")
 	)
-	(label "LProt"
+	(label "LPROT"
 		(at 130.81 88.9 0)
 		(effects
 			(font
