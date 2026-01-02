@@ -2205,16 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 83.82) (xy 220.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420f0f6e-021e-4132-bd92-d6c4570dd1b1")
-	)
-	(wire
-		(pts
 			(xy 189.23 104.14) (xy 189.23 106.68)
 		)
 		(stroke
@@ -2455,7 +2445,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 83.82) (xy 220.98 93.98)
+			(xy 220.98 88.9) (xy 220.98 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2555,16 +2545,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 88.9) (xy 189.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2af8164-58a2-404c-aabe-9b1beabcf0b6")
-	)
-	(wire
-		(pts
 			(xy 201.93 93.98) (xy 204.47 93.98)
 		)
 		(stroke
@@ -2575,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 88.9) (xy 189.23 88.9)
+			(xy 186.69 88.9) (xy 220.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3258,7 +3238,7 @@
 		(dnp no)
 		(uuid "2020e2c9-8a70-498e-b73e-0d8a48d57e0d")
 		(property "Reference" "C2"
-			(at 146.558 101.092 0)
+			(at 146.558 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,10 +3569,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ef5d016-ed82-4420-9a60-e26dc6209f31")
 		(property "Reference" "L1"
-			(at 198.12 87.63 90)
+			(at 198.12 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3579,7 @@
 			)
 		)
 		(property "Value" "47uH"
-			(at 198.12 90.17 90)
+			(at 198.12 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,7 +3713,7 @@
 		(dnp no)
 		(uuid "7500a49e-bd04-4ec3-a022-c24507a80ab5")
 		(property "Reference" "D10"
-			(at 99.314 92.71 0)
+			(at 99.314 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3721,7 @@
 			)
 		)
 		(property "Value" "SS36"
-			(at 99.3775 85.09 0)
+			(at 99.314 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3849,7 @@
 		(dnp no)
 		(uuid "935b0581-2f0f-48c4-9a3f-07b93446eaf5")
 		(property "Reference" "TH1"
-			(at 84.074 93.98 90)
+			(at 84.074 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +3857,7 @@
 			)
 		)
 		(property "Value" "XF250"
-			(at 84.1375 85.09 90)
+			(at 84.074 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
